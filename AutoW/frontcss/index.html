@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Renombrador de PDFs</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📄 Renombrar Archivos PDF</h1>
+
+   
+    <!-- Label e input para la carpeta -->
+    <label for="carpeta">📂 Carpeta seleccionada o ruta:</label>
+
+    <!-- Botón para abrir diálogo nativo de selección -->
+    <button id="btnSeleccionar"> Seleccionar carpeta</button>
+    <input type="text" id="carpeta" placeholder="Ruta de la carpeta..." />
+    <label for="clave">🔍 Clave a buscar (ej. 'Asset ID:')</label>
+    <input type="text" id="clave" placeholder="Clave..." />
+
+    <label for="prefijo">✏️ Prefijo (opcional):</label>
+    <input type="text" id="prefijo" placeholder="Prefijo..." />
+
+    <label for="sufijo">📎 Sufijo (opcional):</label>
+    <input type="text" id="sufijo" placeholder="Sufijo..." />
+
+    <button class="primary" onclick="renombrar()">🚀 Renombrar archivos PDF</button>
+
+    <p id="resultado"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
