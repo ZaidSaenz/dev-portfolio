@@ -19,7 +19,8 @@ This project includes a set of Python tools to automate the management of PDF do
 ## Planned Features
 
 - A tool to read specific fields in PDF documents and compare them with a dataset.  
-- Automatically move files to specific folders based on matching criteria.
+- Automatically move files to specific folders based on matching criteria.  
+- **Future integration:** Combine all tools into a single program with multiple utilities for easier use.
 
 ## Technologies Used
 
@@ -30,3 +31,5 @@ This project includes a set of Python tools to automate the management of PDF do
 ## Purpose
 
 This project is part of my personal portfolio to practice file manipulation and automation with Python.
+
+---
